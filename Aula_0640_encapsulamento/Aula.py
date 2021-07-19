@@ -19,4 +19,4 @@ if __name__ == '__main__':
     for v, n in enumerate(lista):
         bd.insert_into(v,n)
     print(bd._BaseDados__dados)
-    print(f'Acessando BD com getter == {bd.dados}')
+    print(f'Acessando BD com getter (@property) == {bd.dados}')
