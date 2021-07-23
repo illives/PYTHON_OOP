@@ -13,6 +13,7 @@ class BaseDados:
         else:
             self.__dados['clientes'].update({id:nome})
 
+
 if __name__ == '__main__':
     bd = BaseDados()
     lista = ['Maria', 'Joao', 'Jose']
