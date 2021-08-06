@@ -1,4 +1,3 @@
-from Aula_1346_Classes_Abstratas.conta_corrente import ContaCorrente
 from conta_popupanca import ContaPoupanca
 from conta_corrente import ContaCorrente
 
