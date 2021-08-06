@@ -5,7 +5,7 @@ class Smartphone(Eletronico, LogMixin):# Herança multipla de LogMixin..vai herd
     
     def __init__(self, nome):
         super().__init__(nome)#Com o SUPER() chamamos o construtor da classe Eletronico
-        self._conectado = False
+        self._conectado = False#Com o nome da Super Classe, implementamos um novo atributo.
 
     def conectar(self):
         if not self._ligado:
